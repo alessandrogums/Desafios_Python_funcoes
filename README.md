@@ -1,1 +1,2 @@
-# Exercicios_Python_funcoes
+# exercício de funções do Curso em vídeo
+(em andamento)
