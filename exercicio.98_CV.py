@@ -7,21 +7,23 @@ from time import sleep
 
 
 def contador(ini, final, passo):
-    if passo < 0 or ini > final:
+    if passo < 0:
         passo=abs(passo)
-        if passo==0:
-            passo=1
+
+    elif passo==0:
+        passo=1
+
+    if ini>final:
         print(f'\na contagem do {ini} até o {final},de {passo} em {passo}')
         for num in range(ini, final - 1, -passo):
-            sleep(0.37)
+            # sleep(0.37)
             print(num, end=' ')
 
-    elif passo >= 0:
-        if passo == 0:
-            passo = 1
+    else:
+
         print(f'a contagem do {ini} até o {final}, de {passo} em {passo}:')
         for num in range(ini, final + 1, passo):
-            sleep(0.37)
+            # sleep(0.37)
             print(num, end=' ')
 
 
@@ -32,3 +34,4 @@ ini = int(input('digite o valor inicial:'))
 final = int(input('digite o valor final:'))
 passo = int(input('digite o valor do passo:'))
 contador(ini, final, passo)
+
