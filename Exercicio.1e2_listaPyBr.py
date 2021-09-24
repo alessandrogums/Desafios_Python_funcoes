@@ -31,20 +31,20 @@ triangulo_numeros(n)
 
 
 def triangulo_numeros(n):
-#     cont = 1
-#     colunas = 0
-#     v=1
-#     while n >= cont:
-#         colunas = 0
-#         v=1
-#         while cont > colunas:
-#             print(v, end=' ')
-#             v+=1
-#             colunas += 1
-#         print()
-#         cont += 1
+    cont = 1
+    colunas = 0
+    v=1
+    while n >= cont:
+        colunas = 0
+        v=1
+        while cont > colunas:
+            print(v, end=' ')
+            v+=1
+            colunas += 1
+        print()
+        cont += 1
 
-#
-#
-# n = int(input('digite um número'))
-# triangulo_numeros(n)
+
+
+n = int(input('digite um número'))
+triangulo_numeros(n)
