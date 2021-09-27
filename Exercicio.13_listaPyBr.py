@@ -8,15 +8,15 @@ def desenha_retangulo(lin,col):
     if col>20:
         col=20
     print('+',end='')
-    for c in range(0,lin):
+    for linhas in range(lin):
         print('−−',end='')
     print('+')
-    for l in range(0,col):
+    for colunas in range(col):
         print('|',end='')
         print(' '*lin*2,end='')
         print('|')
     print('+',end='')
-    for c in range(0,lin):
+    for linhas in range(lin):
         print('−−',end='')
     print('+')
 
